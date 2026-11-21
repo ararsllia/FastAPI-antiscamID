@@ -1,0 +1,25 @@
+{
+  "model_version": "tfidf-lr-v1.0",
+  "algoritma": "TFIDF + LogisticRegression",
+  "skenario_data": "B. asli+sintetis",
+  "best_params": {
+    "clf__C": "3",
+    "feat__word__ngram_range": "(1, 2)"
+  },
+  "threshold": {
+    "T_LOW": 0.31081021831916783,
+    "T_BEST": 0.5833706160121941,
+    "T_HIGH": 0.3608102183191678
+  },
+  "metrik_test": {
+    "f1_penipuan": 0.9012,
+    "precision_penipuan": 0.9359,
+    "recall_penipuan": 0.869,
+    "accuracy": 0.9439,
+    "roc_auc": 0.9883
+  },
+  "n_train": 1218,
+  "n_test": 285,
+  "sklearn_version": "1.8.0",
+  "dibuat": "2026-11-21 08:53"
+}
