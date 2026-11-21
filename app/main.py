@@ -265,3 +265,4 @@ def predict_batch(
         results.append(analyze_message(text))
 
     return results
+#testing
